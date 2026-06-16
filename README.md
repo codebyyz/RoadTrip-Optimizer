@@ -1,54 +1,91 @@
+# Intelligent Road Trip Planning System
 
-# 山东建模大赛项目
+A mathematical modeling project for optimizing multi-day self-driving travel itineraries.
 
-## 项目简介
+## Overview
 
-欢迎来到山东建模大赛项目的GitHub仓库！
+This project proposes a data-driven framework for selecting tourist attractions and generating an optimal five-day self-driving travel route.
 
-该项目是为了参加山东建模大赛而创建的。
+The model simultaneously considers:
 
-## 项目结构
+* Attraction quality
+* Travel distance
+* Travel time
+* Accommodation costs
+* Route efficiency
+* Tourist satisfaction
 
-（请在此处详细描述你的项目结构，例如：
-
-- `src/`: 源代码目录
-- `data/`: 数据文件目录
-- `notebooks/`: Jupyter Notebooks
-- `docs/`: 项目文档
-
-）
-
-## 环境搭建
-
-（请在此处描述如何搭建项目运行环境，例如：
-
-1. **安装Python:** 确保你安装了Python 3.x。
-2. **安装依赖:** 运行 `pip install -r requirements.txt` 来安装项目所需的Python库。
-）
-
-## 如何运行
-
-（请在此处描述如何运行你的项目，例如：
-
-1. **运行主程序:** `python src/main.py`
-2. **运行分析脚本:** `python notebooks/analysis.ipynb`
-）
-
-## 贡献
-
-（如果你希望其他人为你贡献代码，请在此处添加贡献指南）
-
-## 许可证
-
-（请在此处添加项目的许可证信息）
+The goal is to maximize overall travel experience while minimizing transportation and scheduling costs.
 
 ---
 
-**参赛信息:**
+## Methodology
 
-* **参赛者:**
-    * [你的名字/团队成员名字]
-* **指导老师:**
-    * [指导老师姓名 (如果适用)]
-* **大赛名称:** 山东建模大赛
-* **参赛年份:** 2026
+### Data Processing
+
+* Attraction data cleaning
+* Indicator normalization
+* Feature extraction
+
+### Weight Determination
+
+* Analytic Hierarchy Process (AHP)
+* Entropy Weight Method
+
+### Attraction Evaluation
+
+* TOPSIS ranking
+* Comprehensive scoring
+
+### Route Optimization
+
+* Multi-objective optimization
+* Travel path planning
+* Constraint satisfaction
+
+---
+
+## Tech Stack
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* AHP
+* TOPSIS
+* Optimization Algorithms
+
+---
+
+## Project Results
+
+The proposed model successfully generates an optimized five-day travel itinerary and provides decision support for personalized tourism planning.
+
+Potential applications include:
+
+* Smart tourism
+* Route recommendation systems
+* Transportation planning
+* Location-based services
+
+---
+
+## Repository Structure
+
+data/
+
+figures/
+
+paper/
+
+src/
+
+README.md
+
+---
+
+## Author
+
+Yunzhuo Chen
+
+Shandong University of Science and Technology
